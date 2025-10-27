@@ -25,7 +25,7 @@ const Items = () => {
 
     return (
         <>
-            <div className={`w-screen h-screen ${mode ? "dark" : ""} dark:bg-[#1A2432]` }>
+            <div className={`w-[100%] h-screen ${mode ? "dark" : ""} dark:bg-[#1A2432]` }>
                 <div >
                     {/* Top navigation bar */}
                     <NavBar setMode ={setMode} mode={mode}/>
