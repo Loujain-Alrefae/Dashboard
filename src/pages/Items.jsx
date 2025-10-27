@@ -31,7 +31,7 @@ const Items = () => {
                     <NavBar setMode ={setMode} mode={mode}/>
                 </div>
                 {/* Main content area sidebar + page content */}
-                <div className=" w-screen h-[89vh] flex ">
+                <div className=" w-[100%] h-[89vh] flex ">
                     <div className=" w-[20%]  h-full ">
                         <SidBar  defColor ="Dash" title ="Stack" 
                         itemes = {[
