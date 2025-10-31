@@ -14,7 +14,7 @@ const FormLogin = ({setData , title , descraption , inputs , message , account ,
             {/* Fullscreen container with centered content */}
             <div className='  w-screen h-screen relative flex justify-center items-center'>
                 {/* Background image covering the entire screen */}
-                <img src="/Dashboard/assets/image/bgForm.jpg" alt="" className=' w-[100%] h-[100%] object-cover absolute top-0 left-0 -z-[1]' />
+                <img src="/assets/image/bgForm.jpg" alt="" className=' w-[100%] h-[100%] object-cover absolute top-0 left-0 -z-[1]' />
                 {/* White form box with padding and rounded corners */}
                 <div className=' relative bg-white p-6 rounded-2xl w-[500px] h-[650px]'>
                     <h1 className='  text-center text-3xl font-semibold mb-4'>{title}</h1>

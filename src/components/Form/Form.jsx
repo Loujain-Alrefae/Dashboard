@@ -31,7 +31,7 @@ const Form = ({ setData ,  title , descraption , inputs ,message ,account , btn 
         {/* Fullscreen background with centered form */}
             <div className=' w-screen h-screen relative flex justify-center items-center'>
                 {/* Background image */}
-                <img src="/Dashboard/assets/image/bgForm.jpg" alt="" className='w-[100%] h-[100%] absolute top-0 bottom-0 object-cover -z-[1]'/>
+                <img src="/assets/image/bgForm.jpg" alt="" className='w-[100%] h-[100%] absolute top-0 bottom-0 object-cover -z-[1]'/>
                  {/* Title and description */}
                 <div className=' w-[800px] h-[660px] relative p-6 rounded-2xl bg-white'>
                     <h1 className='  text-center text-3xl font-semibold mb-4'>{title}</h1>
